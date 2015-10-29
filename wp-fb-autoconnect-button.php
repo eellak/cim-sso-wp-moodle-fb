@@ -25,8 +25,8 @@ if ( is_plugin_active( 'wp-fb-autoconnect/Main.php' ) ) {
 
 function wpfbbtn_append_button() {
 	if(isset($_GET['redirect_to'])) $redirectTo = $_GET['redirect_to'];
-    elseif(strpos($redirectTo,'login'))  $redirectTo = '/';
-	else $redirectTo = htmlspecialchars($_SERVER['REQUEST_URI']);
+    else $redirectTo = htmlspecialchars($_SERVER['REQUEST_URI']);
+	if(strpos($redirectTo,'login'))  $redirectTo = '/';
 	jfb_output_facebook_btn();
 	jfb_output_facebook_init();
 	jfb_output_facebook_callback($redirectTo);
