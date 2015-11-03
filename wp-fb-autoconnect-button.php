@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WP-FB-AutoConnect-Button
- * @version 0.1
+ * @version 1.0
  */
 /*
 Plugin Name: WP-FB-AutoConnect Button
