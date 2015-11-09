@@ -9,7 +9,7 @@ WP FB AutoConnect Button is a Wordpress plugin which works on top of WP FB Autoc
 
 ## Installation
 
-In the directory where WP plugins are stored (normally the path wp-content/plugins/), download and uncompress the [WP FB AutoConnect plugin](https://wordpress.org/support/view/plugin-reviews/wp-fb-autoconnect?filter=5). Activate it from the administrator's dashboard. Next, download and uncompress the WP FB AutoConnect Button plugin, in the same directory. Activate it through the administrator dashboard.
+In the directory where WP plugins are stored (normally the path wp-content/plugins/), download and uncompress the [WP FB AutoConnect plugin](https://wordpress.org/plugins/wp-fb-autoconnect/). Activate it from the administrator's dashboard. Next, download and uncompress the WP FB AutoConnect Button plugin, in the same directory. Activate it through the administrator dashboard. No settings are needed.
 
 ## Changelog
 
